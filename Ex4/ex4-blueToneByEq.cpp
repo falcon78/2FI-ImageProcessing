@@ -12,7 +12,7 @@ int main(void)
         uchar *p = image.ptr(y);
         for (int x = 0; x < image.cols; x++)
         {
-            uchar *blueChannel = &p[x*3+1];
+            uchar *blueChannel = &p[x*3];
             if (*blueChannel <= 85)
             {
                 *blueChannel *= 2;
