@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ImageProc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5-sharp">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex5-sharp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5-sharp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5-sharp/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex5-sharp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5-sharp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-toneByTable">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-toneByTable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-toneByTable"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-toneByTable/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-toneByTable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-toneByTable/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-toneByEq">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-toneByEq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-toneByEq"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-toneByEq/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-toneByEq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-toneByEq/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-alphablend">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-alphablend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-alphablend"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-alphablend/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-alphablend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-alphablend/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5-edges">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex5-edges" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5-edges"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5-edges/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex5-edges" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5-edges/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex-3-readImage">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex-3-readImage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex-3-readImage"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex-3-readImage/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex-3-readImage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex-3-readImage/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-split-merge">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-split-merge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-split-merge"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-split-merge/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-split-merge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-split-merge/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-split">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-split" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-split"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-split/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-split" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-split/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5-blurs">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex5-blurs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5-blurs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5-blurs/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex5-blurs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5-blurs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-camSplitMerge">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-camSplitMerge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-camSplitMerge"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-camSplitMerge/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-camSplitMerge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-camSplitMerge/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-blendMask">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-blendMask" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-blendMask"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-blendMask/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-blendMask" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-blendMask/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3-BGR2HSV">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex3-BGR2HSV" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex3-BGR2HSV"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3-BGR2HSV/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex3-BGR2HSV" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex3-BGR2HSV/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5-medBlur">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex5-medBlur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5-medBlur"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5-medBlur/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex5-medBlur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5-medBlur/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-grayNegaposi">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-grayNegaposi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-grayNegaposi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-grayNegaposi/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-grayNegaposi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-grayNegaposi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-pesudoColor">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-pesudoColor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-pesudoColor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-pesudoColor/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-pesudoColor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-pesudoColor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testis">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/testis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testis"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testis/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/testis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testis/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-grayImage">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-grayImage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-grayImage"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-grayImage/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-grayImage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-grayImage/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-blueToneByEq">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-blueToneByEq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-blueToneByEq"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4-blueToneByEq/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex4-blueToneByEq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4-blueToneByEq/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-camGreyNega">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-camGreyNega" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-camGreyNega"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2-camGreyNega/fast">
+				<Option output="/Users/falcon/Projects/ImageProc/cmake-build-debug/ex2-camGreyNega" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/falcon/Projects/ImageProc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.1.1_2/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2-camGreyNega/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/falcon/Projects/ImageProc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex2/ex2-camGreyNega.cpp">
+			<Option target="ex2-camGreyNega"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex2/ex2-camSplitMerge.cpp">
+			<Option target="ex2-camSplitMerge"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex2/ex2-grayImage.cpp">
+			<Option target="ex2-grayImage"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex2/ex2-grayNegaposi.cpp">
+			<Option target="ex2-grayNegaposi"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex2/ex2-split-merge.cpp">
+			<Option target="ex2-split-merge"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex2/ex2-split.cpp">
+			<Option target="ex2-split"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex3/ex3-BGR2HSV.cpp">
+			<Option target="ex3-BGR2HSV"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex3/readImage.cpp">
+			<Option target="ex-3-readImage"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex4/ex4-alphablend.cpp">
+			<Option target="ex4-alphablend"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex4/ex4-blendMask.cpp">
+			<Option target="ex4-blendMask"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex4/ex4-blueToneByEq.cpp">
+			<Option target="ex4-blueToneByEq"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex4/ex4-pesudoColor.cpp">
+			<Option target="ex4-pesudoColor"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex4/ex4-toneByEq.cpp">
+			<Option target="ex4-toneByEq"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex4/ex4-toneByTable.cpp">
+			<Option target="ex4-toneByTable"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex5/ex5-blurs.cpp">
+			<Option target="ex5-blurs"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex5/ex5-edges.cpp">
+			<Option target="ex5-edges"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex5/ex5-medBlur.cpp">
+			<Option target="ex5-medBlur"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/Ex5/ex5-sharp.cpp">
+			<Option target="ex5-sharp"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/test.cpp">
+			<Option target="testis"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/falcon/Projects/ImageProc/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
