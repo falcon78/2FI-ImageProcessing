@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="ImageProc" targetName="ex4-alphablend" />
-      <config projectName="ImageProc" targetName="ex2-camGreyNega" />
-      <config projectName="ImageProc" targetName="ex5-edges" />
-      <config projectName="ImageProc" targetName="ex-3-readImage" />
-      <config projectName="ImageProc" targetName="ex5-blurs" />
-      <config projectName="ImageProc" targetName="ex4-blueToneByEq" />
-      <config projectName="ImageProc" targetName="ex4-toneByEq" />
-      <config projectName="ImageProc" targetName="ex5-sharp" />
-      <config projectName="ImageProc" targetName="ex2-camSplitMerge" />
-      <config projectName="ImageProc" targetName="ex2-split" />
-      <config projectName="ImageProc" targetName="ex4-pesudoColor" />
-      <config projectName="ImageProc" targetName="ex5-medBlur" />
-      <config projectName="ImageProc" targetName="ex3-BGR2HSV" />
-      <config projectName="ImageProc" targetName="ex4-blendMask" />
-      <config projectName="ImageProc" targetName="ex2-split-merge" />
-      <config projectName="ImageProc" targetName="ex2-grayNegaposi" />
-      <config projectName="ImageProc" targetName="testis" />
-      <config projectName="ImageProc" targetName="ex2-grayImage" />
-      <config projectName="ImageProc" targetName="ex4-toneByTable" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -30,16 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f37fb9b6-d1b8-42c3-a1d5-cead05f28f68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultImage/ex4-alphablend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultImage/ex4-blendMask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultImage/ex4-blueToneByEq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultImage/ex4-pesudoColor-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultImage/ex4-pesudoColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultImage/ex4-toneByEq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultImage/ex4-toneByTable.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex4/ex4-blueToneByEq.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ex4/ex4-blueToneByEq.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,15 +22,15 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S8SevAg09Zv7cWkb070NDQdBwA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ResultImage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -84,124 +56,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.ex4-blueToneByEq">
-    <configuration name="ex-3-readImage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex-3-readImage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex-3-readImage">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex2-camGreyNega" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex2-camGreyNega" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex2-camGreyNega">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex2-camSplitMerge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex2-camSplitMerge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex2-camSplitMerge">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex2-grayImage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex2-grayImage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex2-grayImage">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex2-grayNegaposi" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex2-grayNegaposi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex2-grayNegaposi">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex2-split-merge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex2-split-merge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex2-split-merge">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex2-split" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex2-split" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex2-split">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex3-BGR2HSV" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex3-BGR2HSV" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex3-BGR2HSV">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex4-alphablend" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex4-alphablend" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex4-alphablend">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex4-blendMask" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex4-blendMask" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex4-blendMask">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex4-blueToneByEq" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex4-blueToneByEq" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex4-blueToneByEq">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex4-pesudoColor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex4-pesudoColor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex4-pesudoColor">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex4-toneByEq" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex4-toneByEq" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex4-toneByEq">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex4-toneByTable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex4-toneByTable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex4-toneByTable">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex5-blurs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex5-blurs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex5-blurs">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex5-edges" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex5-edges" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex5-edges">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex5-medBlur" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex5-medBlur" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex5-medBlur">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex5-sharp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex5-sharp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex5-sharp">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="testis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="testis">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.ex-3-readImage" />
-      <item itemvalue="CMake Application.ex2-camGreyNega" />
-      <item itemvalue="CMake Application.ex2-camSplitMerge" />
-      <item itemvalue="CMake Application.ex2-grayImage" />
-      <item itemvalue="CMake Application.ex2-grayNegaposi" />
-      <item itemvalue="CMake Application.ex2-split" />
-      <item itemvalue="CMake Application.ex2-split-merge" />
-      <item itemvalue="CMake Application.ex3-BGR2HSV" />
-      <item itemvalue="CMake Application.ex4-alphablend" />
-      <item itemvalue="CMake Application.ex4-blendMask" />
-      <item itemvalue="CMake Application.ex4-blueToneByEq" />
-      <item itemvalue="CMake Application.ex4-pesudoColor" />
-      <item itemvalue="CMake Application.ex4-toneByEq" />
-      <item itemvalue="CMake Application.ex4-toneByTable" />
-      <item itemvalue="CMake Application.ex5-blurs" />
-      <item itemvalue="CMake Application.ex5-edges" />
-      <item itemvalue="CMake Application.ex5-medBlur" />
-      <item itemvalue="CMake Application.ex5-sharp" />
-      <item itemvalue="CMake Application.testis" />
-    </list>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -213,6 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570943828814</updated>
       <workItem from="1570943833188" duration="4207000" />
+      <workItem from="1570948887221" duration="23000" />
+      <workItem from="1570948970145" duration="437000" />
     </task>
     <servers />
   </component>
@@ -224,7 +80,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
