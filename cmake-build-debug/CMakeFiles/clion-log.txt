@@ -1,4 +1,0 @@
-"/Users/falcon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/falcon/Projects/ImageProc
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/falcon/Projects/ImageProc/cmake-build-debug
