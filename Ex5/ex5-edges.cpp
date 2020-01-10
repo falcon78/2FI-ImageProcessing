@@ -8,7 +8,7 @@ using namespace std;
 void edges(std::string fileName, int depth , int thresHold1, int thresHold2)
 {
     cv::Mat image = cv::imread("../bin/" + fileName);
-    cv::cvtColor(image, image, cv::COLOR_BGR2GRAY)
+    cv::cvtColor(image, image, cv::COLOR_BGR2GRAY);
     cv::Mat laplacian;
     cv::Mat canny;
 

@@ -2,25 +2,40 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ImageProc" targetName="ex2-camGreyNega" />
-      <config projectName="ImageProc" targetName="ex4-alphablend" />
-      <config projectName="ImageProc" targetName="ex5-edges" />
-      <config projectName="ImageProc" targetName="ex5-blurs" />
-      <config projectName="ImageProc" targetName="ex4-blueToneByEq" />
-      <config projectName="ImageProc" targetName="ex4-toneByEq" />
-      <config projectName="ImageProc" targetName="ex5-sharp" />
-      <config projectName="ImageProc" targetName="ex2-camSplitMerge" />
       <config projectName="ImageProc" targetName="ex2-split" />
-      <config projectName="ImageProc" targetName="ex4-pesudoColor" />
-      <config projectName="ImageProc" targetName="ex3-readImage" />
-      <config projectName="ImageProc" targetName="ex5-medBlur" />
-      <config projectName="ImageProc" targetName="ex3-BGR2HSV" />
-      <config projectName="ImageProc" targetName="ex4-blendMask" />
+      <config projectName="ImageProc" targetName="testis" />
+      <config projectName="ImageProc" targetName="ex2-camGreyNega" />
+      <config projectName="ImageProc" targetName="ex13-catDetect" />
       <config projectName="ImageProc" targetName="ex2-split-merge" />
       <config projectName="ImageProc" targetName="ex2-grayNegaposi" />
-      <config projectName="ImageProc" targetName="testis" />
-      <config projectName="ImageProc" targetName="ex2-grayImage" />
+      <config projectName="ImageProc" targetName="ex2-camSplitMerge" />
+      <config projectName="ImageProc" targetName="ex10-posterize64" />
+      <config projectName="ImageProc" targetName="ex12-backSub" />
+      <config projectName="ImageProc" targetName="ex13-faceDetect" />
+      <config projectName="ImageProc" targetName="ex4-pesudoColor" />
+      <config projectName="ImageProc" targetName="ex9-length" />
+      <config projectName="ImageProc" targetName="ex9-morpho" />
+      <config projectName="ImageProc" targetName="ex3-BGR2HSV" />
+      <config projectName="ImageProc" targetName="ex5-sharp" />
+      <config projectName="ImageProc" targetName="ex11-tempMatch" />
+      <config projectName="ImageProc" targetName="ex3-readImage" />
+      <config projectName="ImageProc" targetName="ex12-frameSub" />
+      <config projectName="ImageProc" targetName="ex5-medBlur" />
+      <config projectName="ImageProc" targetName="ex7-perspective" />
+      <config projectName="ImageProc" targetName="ex4-alphablend" />
+      <config projectName="ImageProc" targetName="sp7-rotateScale" />
+      <config projectName="ImageProc" targetName="ex10-posterizeAny" />
+      <config projectName="ImageProc" targetName="ex4-toneByEq" />
+      <config projectName="ImageProc" targetName="sp9-skeleton" />
+      <config projectName="ImageProc" targetName="ex4-blueToneByEq" />
+      <config projectName="ImageProc" targetName="ex5-edges" />
+      <config projectName="ImageProc" targetName="sp7-mouseRect" />
+      <config projectName="ImageProc" targetName="sp7-mouseEvent" />
       <config projectName="ImageProc" targetName="ex4-toneByTable" />
+      <config projectName="ImageProc" targetName="ex4-blendMask" />
+      <config projectName="ImageProc" targetName="ex2-grayImage" />
+      <config projectName="ImageProc" targetName="ex11-houghTrans" />
+      <config projectName="ImageProc" targetName="ex5-blurs" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -30,9 +45,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f37fb9b6-d1b8-42c3-a1d5-cead05f28f68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ex07/ex7-perspective.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex07/ex7-rotateScale.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex07/sp7-mouseEvent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex07/sp7-mouseRect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec11/ex11-houghTrans.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec11/ex11-tempMatch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec12/ex12-backSub.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec12/ex12-frameSub.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec13/ex13-catDetect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec13/ex13-faceDetect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec9/ex9-length.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec9/ex9-morpho.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lec9/sp9-skeleton.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/color.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/madeira2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/madeira2templ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/noisy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/string.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec10/ex10-posterize64.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec10/ex10-posterizeAny.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex5/ex5-edges.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ex5/ex5-edges.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex5/ex5-medBlur.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ex5/ex5-medBlur.cpp" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,39 +82,77 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1S8SevAg09Zv7cWkb070NDQdBwA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lec13" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lec13" />
+      <recent name="$PROJECT_DIR$/lec10" />
+      <recent name="$PROJECT_DIR$/Ex07" />
       <recent name="$PROJECT_DIR$/ResultImage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Ex5" />
       <recent name="$PROJECT_DIR$/Ex4" />
       <recent name="$PROJECT_DIR$/Ex3" />
-      <recent name="$PROJECT_DIR$/Ex2" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="CMake Application.ex4-alphablend">
+  <component name="RunManager" selected="CMake Application.ex13-catDetect">
     <configuration name="Cmake" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex10-posterize64" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex10-posterize64" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex10-posterize64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex10-posterizeAny" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex10-posterizeAny" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex10-posterizeAny">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex11-houghTrans" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex11-houghTrans" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex11-houghTrans">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex11-tempMatch" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../bin/madeira2.jpg ../bin/madeira2templ.jpg" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex11-tempMatch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex11-tempMatch">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex12-backSub" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex12-backSub" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex12-backSub">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex12-frameSub" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex12-frameSub" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex12-frameSub">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex13-catDetect" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="smol.jpg" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex13-catDetect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex13-catDetect">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex13-faceDetect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex13-faceDetect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex13-faceDetect">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -172,6 +247,41 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex7-perspective" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="littleCat.jpg" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex7-perspective" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex7-perspective">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex9-length" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="cskeleton.jpg" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex9-length" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex9-length">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex9-morpho" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="cstring.jpg" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="ex9-morpho" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="ex9-morpho">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sp7-mouseEvent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="sp7-mouseEvent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="sp7-mouseEvent">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sp7-mouseRect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="sp7-mouseRect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="sp7-mouseRect">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sp7-rotateScale" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="littleCat.jpg 90 300 300 2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="sp7-rotateScale" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="sp7-rotateScale">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sp9-skeleton" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../bin/dilateErode_cstring.jpg ../bin/cstring.jpg" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="sp9-skeleton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="sp9-skeleton">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageProc" TARGET_NAME="testis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageProc" RUN_TARGET_NAME="testis">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -179,6 +289,14 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.Cmake" />
+      <item itemvalue="CMake Application.ex10-posterize64" />
+      <item itemvalue="CMake Application.ex10-posterizeAny" />
+      <item itemvalue="CMake Application.ex11-houghTrans" />
+      <item itemvalue="CMake Application.ex11-tempMatch" />
+      <item itemvalue="CMake Application.ex12-backSub" />
+      <item itemvalue="CMake Application.ex12-frameSub" />
+      <item itemvalue="CMake Application.ex13-catDetect" />
+      <item itemvalue="CMake Application.ex13-faceDetect" />
       <item itemvalue="CMake Application.ex2-camGreyNega" />
       <item itemvalue="CMake Application.ex2-camSplitMerge" />
       <item itemvalue="CMake Application.ex2-grayImage" />
@@ -197,8 +315,27 @@
       <item itemvalue="CMake Application.ex5-edges" />
       <item itemvalue="CMake Application.ex5-medBlur" />
       <item itemvalue="CMake Application.ex5-sharp" />
+      <item itemvalue="CMake Application.ex7-perspective" />
+      <item itemvalue="CMake Application.ex9-length" />
+      <item itemvalue="CMake Application.ex9-morpho" />
+      <item itemvalue="CMake Application.sp7-mouseEvent" />
+      <item itemvalue="CMake Application.sp7-mouseRect" />
+      <item itemvalue="CMake Application.sp7-rotateScale" />
+      <item itemvalue="CMake Application.sp9-skeleton" />
       <item itemvalue="CMake Application.testis" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -217,6 +354,20 @@
       <workItem from="1570950562140" duration="246000" />
       <workItem from="1570951005920" duration="104000" />
       <workItem from="1570951125034" duration="218000" />
+      <workItem from="1572310611592" duration="789000" />
+      <workItem from="1572323991355" duration="9028000" />
+      <workItem from="1572857723792" duration="1196000" />
+      <workItem from="1574933411102" duration="1103000" />
+      <workItem from="1575384586102" duration="4516000" />
+      <workItem from="1575785600970" duration="14863000" />
+      <workItem from="1575817329987" duration="343000" />
+      <workItem from="1575956801482" duration="4516000" />
+      <workItem from="1575961662675" duration="406000" />
+      <workItem from="1576560239394" duration="266000" />
+      <workItem from="1576560677358" duration="98000" />
+      <workItem from="1576560787747" duration="95000" />
+      <workItem from="1576560896781" duration="2978000" />
+      <workItem from="1578305676973" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="Readme Update">
       <created>1570949590536</created>
@@ -262,5 +413,43 @@
     <MESSAGE value="Readme Update" />
     <MESSAGE value="fixed typo" />
     <option name="LAST_COMMIT_MESSAGE" value="fixed typo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="326" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578306447335">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="326" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.23.1637.1027@43.23.1637.1027" timestamp="1578306447335" />
+    <state x="549" y="271" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576560768167">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="549" y="271" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/43.23.1637.1027@43.23.1637.1027" timestamp="1576560768167" />
+    <state width="1595" height="286" key="GridCell.Tab.0.bottom" timestamp="1578306815053">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state width="1595" height="286" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1578306815053" />
+    <state width="1595" height="286" key="GridCell.Tab.0.center" timestamp="1578306815052">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state width="1595" height="286" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1578306815052" />
+    <state width="1595" height="286" key="GridCell.Tab.0.left" timestamp="1578306815051">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state width="1595" height="286" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1578306815051" />
+    <state width="1595" height="286" key="GridCell.Tab.0.right" timestamp="1578306815052">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state width="1595" height="286" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1578306815052" />
+    <state x="363" y="175" key="SettingsEditor" timestamp="1576560814972">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="363" y="175" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1576560814972" />
+    <state x="538" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1578305677500">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="538" y="369" key="com.intellij.ide.util.TipDialog/43.23.1637.1027@43.23.1637.1027" timestamp="1578305677500" />
+    <state x="526" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1576560803436">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="526" y="250" width="670" height="676" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1576560803436" />
   </component>
 </project>
